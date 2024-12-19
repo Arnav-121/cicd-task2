@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/kubernetes-jenkins-pipeline.git'
+                git 'https://github.com/Arnav-121/cicd-task2.git'
             }
         }
         stage('Deploy to Kubernetes') {
